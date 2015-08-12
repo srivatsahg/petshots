@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+     <include layout="@layout/commonheader"/>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvpetdataname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:text="@string/strPetname" />
+
+        <EditText
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:hint="@string/strPetnameHint"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:ems="10" />
+    </LinearLayout>
+
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip"
+        >
+		
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvpetdatadob"
+            android:layout_height="wrap_content"
+            android:textColor="@color/help_item_background_color"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:text="@string/strPetDOB"/>
+        
+      	 <EditText
+            android:id="@+id/txtDOB"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:hint="@string/strPetDOB"
+           android:layout_weight="0.75"
+           android:ems="10" />
+
+       </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip" 
+        >
+
+        <TextView
+            android:id="@+id/tvpetdatasex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/help_item_background_color"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:text="@string/strSex" />
+    
+         <Spinner
+            android:id="@+id/spinnerSex"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:prompt="@string/strSex"
+            android:layout_marginLeft="30dip"
+            android:layout_weight="0.75"
+            />
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvpetdatachipid"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:text="@string/strMicrochip" />
+
+        <EditText
+            android:id="@+id/txtChipid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="@string/strMicrochipHint"
+            android:layout_weight="0.75"
+            android:ems="10" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip"
+        >
+
+        <TextView
+            android:id="@+id/tvpetdataregid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:text="@string/strRegno" />
+
+        <EditText
+            android:id="@+id/txtRegid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:hint="@string/strRegnoHint"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dip"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dip"
+            >
+
+            <Button
+                android:id="@+id/btnPetSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:textColor="@color/white"
+                android:text="@string/strSave" />
+
+            <Button
+                android:id="@+id/btnPetCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:textColor="@color/white"
+                android:text="@string/strDiscard" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

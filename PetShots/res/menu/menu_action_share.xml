@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/share_item"
+          android:icon="@drawable/ic_action_share"
+          android:title="@string/share_item"
+          android:titleCondensed="@string/share_item"
+          android:showAsAction="ifRoom" />
+</menu>

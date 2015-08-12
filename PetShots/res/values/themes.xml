@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Styled" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/background</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="titleColor">#FFFFFF</item>
+        <item name="backgroundSplit">@drawable/bg_striped_split</item>
+        <item name="android:backgroundSplit">@drawable/bg_striped_split</item>
+    </style>
+
+    <style name="PetShotsTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+
+        <!-- Widget Styles -->
+        <item name="android:textViewStyle">@android:style/Widget.TextView</item>
+        <item name="android:editTextStyle">@android:style/Widget.EditText</item>
+
+    </style>
+
+    <style name="Widget.TextView">
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="android:textColorPrimary">#FFFF0000</item>
+    </style>
+    <style name="Widget.EditText">
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="android:textColorPrimary">#FFFF0000</item>
+    </style>
+</resources>

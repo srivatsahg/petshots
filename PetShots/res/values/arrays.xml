@@ -1,0 +1,52 @@
+<resources>  
+     <string-array name="sexlist">  
+            <item>@string/strMale</item>  
+            <item>@string/strFemale</item>  
+     </string-array>
+     
+     <string-array name="pettype">  
+            <item>@string/strDog</item>  
+            <item>@string/strCat</item>  
+     </string-array>
+     
+     <!-- Vaccination entries for Dogs -->
+     <string-array name="caninevaccinelist">
+            <item>@string/strCanineDistemper</item>
+            <item>@string/strRabies</item>
+            <item>@string/strMeasles</item>
+            <item>@string/strParvo</item>
+            <item>@string/strDiarrhoea</item>
+            <item>@string/strAdeno</item>
+            <item>@string/strInfluenza</item>
+            <item>@string/strLepto</item>
+            <item>@string/strBordetella</item>
+            <item>@string/strDeworming</item>
+            <item>@string/strCorona</item>
+     </string-array>
+
+    <string-array name="petvaccinelist">
+        <item>@string/strlistDHPP</item>
+        <item>@string/strlistDHLPP</item>
+        <item>@string/strCanineDistemper</item>
+        <item>@string/strAdeno</item>
+        <item>@string/strInfluenza</item>
+        <item>@string/strLepto</item>
+        <item>@string/strParvo</item>
+        <item>@string/strHepatitis</item>
+        <item>@string/strFelineDistemper</item>
+        <item>@string/strRhinotracheitis</item>
+        <item>@string/strCanineCalcivirus</item>
+        <item>@string/strFelineCalcivirus</item>
+        <item>@string/strFelineLeukemia</item>
+        <item>@string/strFelineChlamydia</item>
+        <item>@string/strFIV</item>
+        <item>@string/strBordetella</item>
+        <item>@string/strMeasles</item>
+        <item>@string/strLyme</item>
+        <item>@string/strDiarrhoea</item>
+        <item>@string/strBordetella</item>
+        <item>@string/strDeworming</item>
+        <item>@string/strCorona</item>
+    </string-array>
+
+</resources>  

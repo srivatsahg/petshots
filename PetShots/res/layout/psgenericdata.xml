@@ -1,0 +1,12 @@
+<TextView  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvGenericName"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="0.75"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="20dip"
+    android:background="@color/transparent"
+    android:ems="15"         
+    />

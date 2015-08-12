@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background">
+
+   <include layout="@layout/commonheader"/>
+
+    <TextView
+            android:id="@+id/tvHelpDescTitle"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dip"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:textColor="@color/abs__background_holo_light"
+            android:text="Title"
+            android:inputType="textNoSuggestions"
+            >
+    </TextView>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/darkteal" />
+    <ScrollView
+            android:id="@+id/scrollHelpTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:scrollbars="vertical"
+            >
+    <TextView
+            android:id="@+id/tvHelpDescContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:maxLines="100"
+            android:textColor="@color/white"
+            android:text="Help file description"
+            android:ems="10"
+            >
+    </TextView>
+    </ScrollView>
+
+</LinearLayout>

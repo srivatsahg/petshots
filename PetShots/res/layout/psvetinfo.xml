@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <include layout="@layout/commonheader"/>
+
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvdocinfoheaderfirstname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="@string/strVetFirstName" />
+
+         <TextView
+            android:id="@+id/txtvetinfoFirstName"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+		
+        <TextView
+            android:id="@+id/tvdocinfoheaderlastname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:text="@string/strVetLastName"/>
+        
+      	<TextView
+            android:id="@+id/txtvetinfoLastName"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+      	 
+    	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvdocinfoheaderemail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:text="@string/strVetEmail" />
+        
+       <TextView
+            android:id="@+id/txtvetinfoemail"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+        
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvdocinfoheaderphone1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="@string/strVetPhone1" />
+
+        <TextView
+            android:id="@+id/txtvetinfophone1"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvdocinfoheaderphone2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="@string/strVetPhone2" />
+
+        <TextView
+            android:id="@+id/txtvetinfophone2"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvdocinfoheaderaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="@string/strVetAddress" />
+
+        <TextView
+            android:id="@+id/txtvetinfoaddress"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:singleLine="false"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dip"
+            >
+
+            <Button
+                android:id="@+id/btnvetinfoEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:textColor="@color/white"
+                android:text="@string/strEdit" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

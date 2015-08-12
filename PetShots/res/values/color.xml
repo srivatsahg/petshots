@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="selected">#066d89</color>
+    <color name="unselected">#303030</color>
+    <color name="devider">#202020</color>
+    <color name="devider_selected">#70abbb</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="error_lookup_table_line">#222222</color>
+    <color name="preference_unit_background_color">#414042</color>
+    <color name="preference_unit_item_divider_color">#000000</color>
+    <color name="preference_unit_item_background_color">#AAAAAA</color>
+    <color name="preference_background_color">#303030</color>
+    <color name="preference_item_divider_color">#000000</color>
+    <color name="preference_item_background_color">#AAAAAA</color>
+    <color name="preference_spinner_item_background_color">#AAAAAA</color>
+    <color name="preference_spinner_item_text_color">#000000</color>
+    <color name="help_item_background_color">#AAAAAA</color>
+    <color name="help_text_color">#000000</color>
+    <!-- Custom Colors -->
+	<color name="lightblue">#D7EEF4</color>
+	<color name="darkteal">#164450</color>
+</resources>

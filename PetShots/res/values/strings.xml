@@ -1,0 +1,394 @@
+<resources>
+
+    <string name="app_name">Pet Shots</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">Pet Shots</string>
+    <string name="title_activity_dashboard">Pet Shots</string>
+    <string name="msgtitleExit">Exit</string>
+    <string name="msgcloseconfirm">Are you sure \n\
+        You want to exit the application ?</string>
+    <string name="msgyes">Yes</string>
+    <string name="msgcancel">Cancel</string>
+    <string name="msgno">No</string>
+    <string name="default_size">R</string>
+    <string name="default_value">0</string>
+    <string name="DISCARD">Discard</string>
+    <string name="PROCEED">Proceed</string>
+    <string name="strinformation">Information</string>
+    <string name="strmnusettings">Settings</string>
+    <string name="strmnusearch">Search</string>
+    <string name="strmnucredit">Balance</string>
+    <string name="strmnuclose">Exit</string>
+    <string name="strmnudelete">Delete</string>
+    <string name="strmnucontact">Contact us</string>
+    <!-- About Developer -->
+    <string name="strmnuabout">VATSAG Inc. All rights reserved.</string>
+
+    <!-- Dialog box messages -->
+    <string name="dialogTitleInformation">Information</string>
+    <string name="dialogTitleError">Error</string>
+    <string name="dialogTitleWarning">Warning</string>
+    <string name="dialogMessageSelectEarlierDate">Please select a valid earlier date</string>
+    <string name="dialogMessageNoVaccineData">No vaccine details available for this pet.</string>
+    <string name="dialogMessageSelectLaterDate">Please select a later date</string>
+
+    <!-- Error messages -->
+    <string name="err_help_title_not_found">No Title found !!</string>
+    <string name="err_help_topic_not_found">No Help File !!</string>
+
+
+        <!-- Date format -->
+<string name="date_format_mmddyyyy">MM/dd/yyyy</string>
+
+        <!-- Dashboard items -->
+<string name="dash_vet">Doctors</string>
+<string name="dash_pet">Pets</string>
+<string name="dash_vaccine">Vaccine Details</string>
+<string name="dash_locate">Find a Clinic</string>
+    <string name="dash_call">Call</string>
+    <string name="dash_help">Help</string>
+    <string name="dash_title">Options</string>
+
+    <!-- Help topics -->
+    <string name="strHelp">Help</string>
+
+    <!-- Pet details -->
+    <string name="strPetdetails">Pet Information</string>
+    <string name="strPetname">Name</string>
+    <string name="strPetnameHint">Enter the name of your pet</string>
+    <string name="strPetDOB">DOB</string>
+    <string name="strSex">Sex</string>
+    <string name="strAge">Age</string>
+    <string name="strMicrochip">Chip code</string>
+    <string name="strMicrochipHint">Enter the microchip no.</string>
+    <string name="strRegno">Reg code</string>
+    <string name="strRegnoHint">Enter your Pet\'s reg code</string>
+    <string name="strMale">Male</string>
+    <string name="strFemale">Female</string>
+    <string name="strDog">Dog</string>
+    <string name="strCat">Cat</string>
+
+    <!-- Vet details -->
+    <string name="strVetDetails">Vet Information</string>
+    <string name="strVetFirstName">Firstname</string>
+    <string name="strVetFirstNameHint">Enter Firstname</string>
+    <string name="strVetLastName">Lastname</string>
+    <string name="strVetLastNameHint">Enter Lastname</string>
+    <string name="strVetEmail">Email</string>
+    <string name="strVetEmailHint">Email address</string>
+    <string name="strVetPhone1">Phone 1</string>
+    <string name="strVetPhone1Hint">Primary Phone no.</string>
+    <string name="strVetPhone2">Phone 2</string>
+    <string name="strVetPhone2Hint">Secondary Phone no.</string>
+    <string name="strVetAddress">Address</string>
+    <string name="strVetAddressHint">Address</string>
+    <string name="strDoc">Dr.</string>
+
+    <!-- Button texts -->
+    <string name="strSave">Save</string>
+    <string name="strEdit">Edit</string>
+    <string name="strUpdate">Update</string>
+    <string name="strDiscard">Discard</string>
+    <string name="strDueDate">Next Due</string>
+    <string name="strToday">Date : </string>
+    <string name="strVaccineSchedule">Vaccine</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_pet_information">Pet Information</string>
+    <string name="title_activity_vet_info">Doctor Information</string>
+    <string name="title_activity_vet_list">Vet Information</string>
+    <string name="title_activity_pet_list">Pet Shots</string>
+
+    <!-- Vaccination details -->
+    <string name="strdatehint">Today\'s date</string>
+    <string name="strduedatehint">Set next due date</string>
+    <string name="strdocselect">Doctor</string>
+    <string name="strpetselect">Pet</string>
+    <string name="strshotselect">Vaccination</string>
+    <string name="strVaccineRecord">Vaccination Record</string>
+    <string name="strVaccineData">Vaccination Data</string>
+
+    <!-- Vaccination table details -->
+    <string name="strtblVaccineName">Vaccine</string>
+    <string name="strtblVaccineDate">Date</string>
+    <string name="strtblSampleDate">2012/12/02</string>
+    <string name="strtblVaccineDueDate">Next Due</string>
+    <string name="strtblDoctor">Doctor</string>
+    <string name="strtblSampleDoc">Srivatsa</string>
+
+    <!-- Vaccinations for Dogs and Cats -->
+    <string name="strCanineDistemper">Canine Distemper</string>
+    <string name="strFelineDistemper">Feline Distemper</string>
+    <string name="strRabies">Rabies</string>
+    <string name="strMeasles">Measles</string>
+    <string name="strParvo">Canine Parvovirus</string>
+    <string name="strDiarrhoea">Diarrhoea</string>
+    <string name="strAdeno">Canine Adenovirus</string>
+    <string name="strInfluenza">Parainfluenza</string>
+    <string name="strLepto">Leptospirosis</string>
+    <string name="strBordetella">Bordetella</string>
+    <string name="strDeworming">Deworming</string>
+    <string name="strCorona">Corona virus</string>
+    <string name="strLyme">Lyme</string>
+    <string name="strPanleukopenia">Panleukopenia</string>
+    <string name="strRhinotracheitis">Rhinotracheitis</string>
+    <string name="strCanineCalcivirus">Calicivirus</string>
+    <string name="strFelineCalcivirus">Feline Calicivirus</string>
+    <string name="strFelineLeukemia">Feline Leukemia</string>
+    <string name="strFelineChlamydia">Chlamydia</string>
+    <string name="strFIV">Feline AIDS</string>
+
+    <string name="strlistDHPP">D.H.P.P</string>
+    <string name="strDHPP">Distemper,Hepatitis,Parainfluenza,Parvovirus [DHPP]</string>
+    <string name="strlistDHLPP">D.H.L.P.P</string>
+    <string name="strDHLPP">Distemper,Hepatitis,Leptospirosis, Parainfluenza,Parvovirus [DHLPP]</string>
+    <string name="strHepatitis">Hepatitis</string>
+    <string name="title_activity_vaccine_entry">Vaccine Data</string>
+    <string name="title_activity_pet_information_view">Pet Info</string>
+    <string name="title_activity_vaccination_details">Vaccine Details</string>
+    <string name="title_activity_modify_pet_data">Edit Pet Data</string>
+    <string name="title_activity_vet_information_view">Doctor Data</string>
+    <string name="title_activity_vaccination_job">Pet Shots</string>
+    <string name="title_activity_help_topic">Pet Shots</string>
+
+    <!-- Help topics -->
+    <string name="help_string_doc_page">Doctor Details Page</string>
+    <string name="help_string_doc_add_detail">How can i add details of a Veterinary Doctor</string>
+    <string name="help_string_doc_add_desc">
+        You can add a Doctor detail by going to the Doctors page and clicking on the "+" button in the actionbar.
+        At the moment the following details can be saved for a Doctor.\n\
+        \n\
+        \t1.\	Firstname *\n\
+        \t2.\	Lastname\n\
+        \t3.\	EmailID\n\
+        \t4.\	Primary Phone Number *\n\
+        \t5.\	Secondary Phone Number\n\
+        \t6.\	Address\n\
+        \n\
+        Click Save button to record doctor information.\n\
+        (*) - Mandatory fields\n\
+        \n\
+    </string>
+    <string name="help_string_doc_edit_detail">How can i edit details of a particular Doctor</string>
+    <string name="help_string_doc_edit_desc">
+        You can edit a particular doctor detail inside the Doctors page.\n\
+        \t1.\    Click and select a Doctor from the list whose details needs to be modified.\n\
+        \t2.\    Click the “Edit” button.\n\
+        \t3.\    Make required changes in the Doctor data.\n\
+        \t4.\    Click Save button to persist the modified data.\n\
+        At the moment the following details can be modified for a Doctor.\n\
+        \n\
+        \t1.\	Firstname *\n\
+        \t2.\	Lastname\n\
+        \t3.\	EmailID\n\
+        \t4.\	Primary Phone Number *\n\
+        \t5.\	Secondary Phone Number\n\
+        \t6.\	Address\n\
+        \n\
+        Click Save button to save the doctor information changes.\n\
+        (*) - Mandatory fields\n\
+        \n\
+    </string>
+    <string name="help_string_doc_phone_call">How do i place a phone call to a Doctor ?</string>
+    <string name="help_string_doc_phone_call_desc">
+        You can place a phone call to a particular doctor from the Doctors page provided there is a minimum of one doctor entry present.\n\
+        \n\
+        \t1.\    Enter the Doctors page from the Options page.\n\
+        \t2.\    Click / Press the "Call" icon next to the doctor for whom the phone call has to be placed.\n\
+        \t3.\    The app shall request for the user permission to dial the primary phone number of the doctor.\n\
+        \t4.\    On user acceptance the app shall initiate a phone call to the doctor\'s primary contact number.\n\
+    </string>
+    <string name="help_string_pet_page">Pet Details Page</string>
+    <string name="help_string_pet_add_detail">How can i add details for a pet ?</string>
+    <string name="help_string_pet_add_detail_desc">
+        You can add a pet detail by going to the Pets page and clicking on the "+" button.
+        Click on the "Save" button to save the entered details of your pet.
+        At the moment the following details can be saved for your pet.\n\
+        \n\
+        \t1.\	Name of the pet.\n\
+        \t2.\	Date of Birth.\n\
+        \t3.\	Sex.\n\
+        \t4.\	Microchip ID.\n\
+        \t5.\	Registration ID.\n\
+    </string>
+    <string name="help_string_pet_edit_detail">How do i edit details of a particular pet ?.</string>
+    <string name="help_string_pet_edit_detail_desc">
+        \t1.\    Click and select a Pet from the list whose details needs to be modified.
+        \t2.\    Click the “Edit” button.
+        \t3.\    Make required changes in the Pet data.
+        \t4.\    Click Save button to persist the modified data.\n\
+        At the moment the following details can be modified for a pet.\n\
+        \n\
+        \t1.\	Name of the pet.\n\
+        \t2.\	Date of Birth.\n\
+        \t3.\	Sex.\n\
+        \t4.\	Microchip ID.\n\
+        \t5.\	Registration ID.\n\
+    </string>
+
+    <string name="help_string_pet_vaccine_detail">How can I view the Vaccination history of a Pet ?</string>
+    <string name="help_string_pet_vaccine_detail_desc">
+        You can view the vaccination history of a particular pet inside the Pets page.
+        From the list of available pets click and select a pet for which the vaccination details needs to be accessed.
+        Click the “Vaccine” button to view the vaccination history for that pet. \n\
+        \n\
+        NOTE:   You can share the vaccination history data via mail by clicking the "Share" icon present on the actionbar.
+    </string>
+
+    <string name="help_string_vaccine_page">Vaccine Details Page</string>
+    <string name="help_string_vaccine_add_detail">How do i add a vaccine detail for a pet ?</string>
+    <string name="help_string_vaccine_add_desc">
+        You can add a vaccination detail for a pet from the Vaccine page.
+        \n\
+        \t1.\	Click on the Vaccine Details option in the "Options" page.\n\
+        \t2.\   Select the Doctor from the doctors list responsible for administering the vaccine.\n\
+        \t3.\   Select the Pet from the list for which the vaccination was administered.\n\
+        \t4.\   Select the type of Vaccination that was administered to the pet.
+        \t4.\	Select the next due date for the Vaccine.\n\
+        \t5.\	Click on "Save" button to record the vaccination entry detail.\n\
+        \n\
+        NOTE:   The user can save the next vaccination due date as a google calendar event.
+    </string>
+    <string name="help_string_vaccine_calendar">Save vaccine details as a google calendar event</string>
+    <string name="help_string_vaccine_calendar_add_event">To add the next vaccination due date as a google calendar event.
+        \n\
+        \t1.\	Click on the Vaccine Details option in the "Options" page.\n\
+        \t2.\   Select the Doctor from the doctors list responsible for administering the vaccine.\n\
+        \t3.\   Select the Pet from the list for which the vaccination was administered.\n\
+        \t4.\   Select the type of Vaccination that was administered to the pet.
+        \t4.\	Select the next due date for the Vaccine.\n\
+        \t5.\	Click on "Save" button to record the vaccination entry detail.\n\
+        \t6.\	The Google Calendar app shall prompt with a popup window through which you can save the next vaccination due date.\n\
+
+    </string>
+
+    <string name="help_string_vaccine_page">Vaccination Guidelines</string>
+    <string name="help_string_vaccine_guidelines">General vaccination guidelines for pets</string>
+    <string name="help_string_vaccine_guidelines_desc">
+        \n\
+        The following information on vaccination schedule shall serve as a Reference in general.
+        The information presented here may vary based on your present geographical location.
+        It\'s always a safe practice to consult your veterinarian before administering any sort of vaccination to your pet.
+        The Veterinarian is the right person to determine the vaccine,the dosage of vaccine that will
+        provide the safest and best protection for your pet depending on the age,breed,size, ingredients of vaccine,
+        vaccination history, neutered status and other factors.\n\
+
+        The VACCINATION GUIDELINES GROUP (VGG) OF THE WORLD SMALL ANIMAL VETERINARY ASSOCIATION (WSAVA)
+        has categorized vaccinations into two broad categories.\n\
+        \n\
+        \t1.\	Core vaccines.\n\
+        \t2.\	Non-Core vaccines.\n\
+        \n\
+        \t1.\  Core vaccines \n\
+        Core vaccines protect animals from severe, life-threatening diseases that have global distribution and
+        every pet regardless of circumstances, should receive.\n\
+        \n\
+        Core vaccines for dogs are those that protect from \n\
+        \n\
+        \t1.\    Canine Parvovirus-2[CPV-2,MLV,Parental].\n\
+        \t2.\    Canine Distemper Virus[CDV,MLV,Parental].\n\
+        \t3.\    Canine Adenovirus-2 [Hepatitis].\n\
+        \t4.\    Rabies virus.\n\
+        \n\
+        \n\
+        Core vaccines for cats are those that protect against \n\
+        \n\
+        \t1.\    Feline Panleukopenia(Distemper).\n\
+        \t2.\    Feline Leukemia Virus (FELV).\n\
+        \t3.\    Feline Calcivirus [FCV].\n\
+        \t3.\    Pneumonitis (Chlamydiosis).\n\
+        \t4.\    Rabies virus.\n\
+        \n\
+        \t2.\    Non-Core Vaccines
+        Non-Core vaccines are required by only those animals whose geographical location, local
+        environment or lifestyle places them at risk of contracting specific infections.\n\
+        \n\
+        Non core vaccines for Dogs protects against \n\
+        Bordetella bronchiseptica, Borrelia burgdorferi and Leptospira bacteria\n\.
+        \n\
+        For Cats, the Non-Core vaccines protects against \n\
+        Feline leukemia virus (FeLV), Feline immunodeficiency virus, Bordetella [kennel cough]
+    </string>
+    <string name="help_string_vaccine_pup">Core vaccination guidelines for Dogs</string>
+    <string name="help_string_vaccine_pup_desc">
+        Every pet regardless of circumstances should receive its dose of Core vaccines to protect itself from severe,
+        life-threatening diseases that have global distribution.\n\
+        \n\
+        According to the canine vaccination guideline issued by WSAVA,
+        Every pup post 9 weeks of age shall be administered primary vaccination course to protect against\n\
+        \n\
+        \t1.\    Canine Parvovirus-2[CPV-2,MLV,Parental].\n\
+        \t2.\    Canine Distemper Virus[CDV,MLV,Parental].\n\
+        \t3.\    Canine Adenovirus-2 [Hepatitis].\n\
+        \t4.\    Rabies virus.\n\
+        \n\
+        Schedule for CORE vaccines\n\
+        \n\
+        Age \t\ \t\ \t\ Core(Recommended)
+        \n\
+        6 - 8 weeks \t\ \t\ Distemper,Hepatitis,Parainfluenza,Parvovirus (DHPP)\n\
+        10 - 12 weeks \t\ \t\ Distemper,Hepatitis,Leptospirosis, Parainfluenza,Parvovirus (DHLPP)\n\
+        12 - 16 weeks \t\ \t\ (DHLPP) + Rabies\n\
+        1 year \t\ \t\ (DHLPP), Rabies. \n\
+        \n\
+        Schedule for Non-CORE vaccines\n\
+        \n\
+        Age \t\ \t\ \t\ Non-Core
+        \n\
+        6 - 8 weeks \t\ \t\ Bordetella \n\
+        10 - 12 weeks \t\ \t\ Coronavirus\n\
+        12 - 16 weeks \t\ \t\ Lyme \n\
+        1 year \t\ \t\ Bordetella,Coronavirus,Lyme. \n\
+        \n\
+        Revaccination.\n\
+        A single dose is given 1 year following the last dose of the initial series, then no more frequently than
+        every 3 years.\n\
+        \n\
+    </string>
+    <string name="help_string_vaccine_kitten">Core Vaccination guidelines for Cats</string>
+    <string name="help_string_vaccine_kitten_desc">
+        \n\
+        According to the Feline Vaccination Guideline issued by WSAVA,
+        Every kitten post 9 weeks of age shall be administered primary vaccination course to protect against\n\
+        \n\
+        \t1.\    Feline Panleukopenia(Distemper).\n\
+        \t2.\    Feline Leukemia Virus (FELV).\n\
+        \t3.\    Feline Calcivirus [FCV].\n\
+        \t3.\    Pneumonitis (Chlamydiosis).\n\
+        \t4.\    Rabies virus.\n\
+        \n\
+        Schedule for CORE vaccines\n\
+        \n\
+        Age \t\ \t\ \t\ Core(Recommended)
+        \n\
+        6 - 8 weeks \t\ \t\ Feline Distemper,Rhinotracheitis,Calcivirus\n\
+        10 - 12 weeks \t\ \t\ 2nd Core Vaccination\n\
+        12 - 16 weeks \t\ \t\ Rabies\n\
+        14 - 16 weeks \t\ \t\ 3rd Core Vaccination\n\
+        1 year \t\ \t\ Core vaccination, Rabies. \n\
+        \n\
+        Schedule for Non-CORE vaccines\n\
+        \n\
+        Age \t\ \t\ \t\ Non-Core
+        \n\
+        6 - 8 weeks \t\ \t\ Chlamydia \n\
+        10 - 12 weeks \t\ \t\ Feline Leukemia\n\
+        12 - 16 weeks \t\ \t\ NA \n\
+        14 - 16 weeks \t\ \t\ NA \n\
+        1 year \t\ \t\ Chlamydia, Feline Leukemia. \n\
+        \n\
+        Revaccination.\n\
+        A single dose is given 1 year following the last dose of the initial series, then no more frequently than
+        every 3 years.\n\
+        \n\
+    </string>
+    <string name="help_string_other_page">Miscellaneous</string>
+    <string name="help_string_call_default_vet">Make a call to the default Doctor</string>
+    <string name="help_string_search_vet">"Locate nearest vet clinics based on the present location"</string>
+    <string name="title_activity_action_bar">Pet Shots</string>
+    <string name="title_activity_abs">ABSActivity</string>
+
+    <!-- ActionSherlock -->
+    <string name="add_item">Add</string>
+    <string name="share_item">Share</string>
+    <string name="about">About</string>
+</resources>

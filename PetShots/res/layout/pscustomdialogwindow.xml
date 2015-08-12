@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dip"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    
+     <LinearLayout
+            android:id="@+id/title_template"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            >
+            <ImageView 
+                android:id="@+id/dialogicon"
+                android:layout_width="wrap_content"
+                android:contentDescription="Pet Shots"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:paddingTop="6dip"
+                android:paddingRight="10dip"
+                android:src="@drawable/ic_action_error" />
+            <TextView android:id="@+id/dialogTitle"
+                android:singleLine="true"
+                style="?android:attr/textAppearanceLarge"
+                android:ellipsize="end"
+                android:text="Information"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View style="@style/Divider" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+	         <TextView android:id="@+id/dialogmessage"
+	                style="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/white"
+	                android:text="Are you sure ?"
+	                android:layout_marginTop="5dip"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:maxLines="4"
+	                android:padding="5dip" />
+		</LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+	           <Button
+		         android:id="@+id/dialogbuttonOK"
+		         android:layout_marginTop="5dp"
+		         android:textColor="@color/white"
+		         android:layout_gravity="center"
+		         android:layout_width="100dip"
+		         android:layout_height="wrap_content"
+		         android:text="OK"
+		         />
+		       
+     </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+     <include layout="@layout/commonheader"/>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:textSize="15sp"
+            android:text="@string/strPetname" />
+
+        <TextView
+            android:id="@+id/txtinfoPetName"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+		
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/help_item_background_color"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.25"
+            android:textSize="15sp"
+            android:text="@string/strPetDOB"/>
+        
+      	 <TextView
+            android:id="@+id/txtinfodob"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/white"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+      	 
+    	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip" 
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/help_item_background_color"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:layout_weight="0.25"
+            android:text="@string/strSex" />
+    
+         <TextView
+            android:id="@+id/txtinfopetsex"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_weight="0.75"
+            />
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:text="@string/strMicrochip" />
+
+        <TextView
+            android:id="@+id/txtinfochipid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_weight="0.75"
+            android:ems="10" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/help_item_background_color"
+            android:textSize="15sp"
+            android:text="@string/strRegno" />
+
+        <TextView
+            android:id="@+id/txtinforegid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dip"
+            android:layout_weight="0.75"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dip"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dip"
+            >
+
+            <Button
+                android:id="@+id/btnPetEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:textColor="@color/white"
+                android:text="@string/strEdit" />
+
+            <Button
+                android:id="@+id/btnPetVaccine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:textColor="@color/white"
+                android:text="@string/strVaccineSchedule" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

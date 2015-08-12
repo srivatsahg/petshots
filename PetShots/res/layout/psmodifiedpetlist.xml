@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <!-- Pet Name -->
+        <TextView
+                android:id="@+id/tvpetName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Dinga"
+                android:textColor="@color/white"
+                android:textSize="20dip"/>
+        <!-- Sex -->
+        <TextView
+                android:id="@+id/tvpetsex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:gravity="right"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:text="Male"
+                android:textSize="15dip"/>
+        </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <!-- Age -->
+        <TextView
+                android:id="@+id/tvpetage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:textStyle="italic"
+                android:text="1 year 2 months"
+                android:textColor="@color/white"
+                android:textSize="15dip"/>
+    </LinearLayout>
+</LinearLayout>
